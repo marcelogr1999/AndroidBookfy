@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_minhaBib"
+            android:icon="@drawable/ic_minhabib"
+            android:title="Minha Biblioteca" />
+        <item
+            android:id="@+id/nav_bibGeral"
+            android:icon="@drawable/ic_bibgeral"
+            android:title="Biblioteca Geral" />
+
+    </group>
+
+    <item android:title="Compartilhe">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhe sua lista" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>
